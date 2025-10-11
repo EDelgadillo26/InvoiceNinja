@@ -1,0 +1,33 @@
+{
+  "name": "invoiceninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:login": "npx playwright test --project=login-tests",
+    "test:auth": "npx playwright test --project=authenticated-tests",
+    "test:all": "npx playwright test --project=login-tests --project=authenticated-tests",
+    "report": "npx playwright show-report",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDelgadillo26/InvoiceNinja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2",
+    "@types/speakeasy": "^2.0.10"
+  },
+  "dependencies": {
+    "speakeasy": "^2.0.0"
+  }
+}

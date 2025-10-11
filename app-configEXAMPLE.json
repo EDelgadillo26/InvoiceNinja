@@ -1,0 +1,7 @@
+{
+  "invoiceNinja": {
+    "email": "<your-email>",
+    "password": "<your-password>",
+    "baseUrl": "https://app.invoicing.co"
+  }
+}
