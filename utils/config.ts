@@ -10,6 +10,7 @@ export const config = {
     base: appConfig.invoiceNinja.baseUrl,
     login: `${appConfig.invoiceNinja.baseUrl}/#/login`,
     dashboard: `${appConfig.invoiceNinja.baseUrl}/#/dashboard`,
+    clients: `${appConfig.invoiceNinja.baseUrl}/#/clients`,
     
   },
 
